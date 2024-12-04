@@ -21,12 +21,12 @@ const ServiceCards: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center gap-8 p-8 bg-background">
+    <div className="flex flex-wrap justify-center gap-8 py-16 px-8 bg-background">
       {services.map((service, index) => (
-        <div key={index} className="bg-primary text-background rounded shadow-lg w-64 h-64 pt-16 pl-8">
-          <h3 className="font-bold text-left">{service.title}</h3>
-          <p className="text-left mb-4">{service.description}</p>
-          <a href={service.link} className="text-background px-4 py-2 rounded hover:bg-blue-100 transition duration-300 text-left">
+        <div key={index} className="bg-primary text-background rounded shadow-lg w-72 h-72 flex flex-col items-start justify-center px-8">
+          <h3 className="font-bold text-left text-xl mb-4">{service.title}</h3>
+          <p className="text-left mb-8">{service.description}</p>
+          <a href={service.link} className="text-background rounded hover:bg-blue-100 transition duration-300 text-left">
             LEER MÁS
           </a>
         </div>

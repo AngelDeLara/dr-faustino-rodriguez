@@ -9,6 +9,9 @@ export default {
 				background: "#fafafa",
 				accent: "#002357",
 			},
+			height: {
+        '160': '40rem',
+      },
 		},
 	},
 	plugins: [],

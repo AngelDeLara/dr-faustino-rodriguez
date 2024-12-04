@@ -2,19 +2,20 @@ import React from 'react';
 
 // Asume que tienes estas imágenes en tu carpeta de assets
 const images = [
-  '/path/to/image1.jpg',
-  '/path/to/image2.jpg',
-  '/path/to/image3.jpg',
-  '/path/to/image4.jpg',
+  'src/assets/gallery1.png',
+  'src/assets/gallery2.png',
+  'src/assets/gallery3.png',
+  'src/assets/gallery4.png',
 ];
 
 const ImageGallery: React.FC = () => {
   return (
-    <div className="w-full px-4 py-8">
-      <h2 className="text-3xl font-bold text-center mb-8">
-        Lorem Ipsum Gallery
+    <div className="w-full px-4 py-8 bg-background text-black">
+      <h2 className="text-4xl font-bold text-center mb-3">
+        Consultas en el <br /> Hospital San Agustín
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <p>Guadalupe, Zacatecas</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-16">
         {images.map((image, index) => (
           <div key={index} className="relative aspect-square overflow-hidden group">
             <img
