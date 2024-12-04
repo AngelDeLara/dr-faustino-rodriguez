@@ -19,7 +19,7 @@ const About: React.FC = () => {
 				</div>
 				<div className="flex-1 flex overflow-hidden justify-center">
 					<img
-						src="/src/assets/FAUSTINO_2.jpg"
+						src="/assets/FAUSTINO_2.jpg"
 						alt="Dr. Faustino Rodriguez"
 						className="w-96 h-80 object-cover rounded-lg"
 					/>

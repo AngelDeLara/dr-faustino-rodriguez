@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/FAUSTINO_26.jpg';
+import profilePic from '/assets/FAUSTINO_26.jpg';
 
 const Header: React.FC = () => {
   return (
