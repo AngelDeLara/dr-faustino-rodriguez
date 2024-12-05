@@ -31,10 +31,6 @@ const Contact: React.FC = () => {
                 <h2 className="text-3xl font-bold mb-6 text-center">
                     Comparte tus datos para obtener más información
                 </h2>
-                <p className="mb-8 text-center text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-                    mauris.
-                </p>
                 <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-4">
                     <input
                         type="text"

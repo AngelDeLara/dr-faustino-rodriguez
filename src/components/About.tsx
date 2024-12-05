@@ -17,7 +17,7 @@ const About: React.FC = () => {
 						técnicas para lograr resultados naturales y armoniosos
 					</p>
 				</div>
-				<div className="flex-1 flex overflow-hidden justify-end">
+				<div className="flex-1 flex justify-end">
 					<img
 						src="/assets/FAUSTINO_2.jpg"
 						alt="Dr. Faustino Rodriguez"
