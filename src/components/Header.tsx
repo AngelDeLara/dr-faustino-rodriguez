@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         style={{ backgroundImage: `url(${profilePic})` }}
       >
         <div className="container z-10 text-left pr-36">
-          <h1 className="text-4xl font-bold text-background-800 mb-4">Luce radiante y recupera tu autoestima</h1>
+          <h1 className="text-4xl font-bold text-background mb-4">Luce radiante y recupera tu autoestima</h1>
           <a className="text-lg bg-primary text-background inline-block px-4 py-2 rounded cursor-pointer hover:text-background">Agenda tu cita</a>
         </div>
       </div>

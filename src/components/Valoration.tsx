@@ -2,7 +2,7 @@ import React from "react";
 
 const Valoration: React.FC = () => {
 	return (
-		<div className="bg-blue-600 h-[400px] w-full flex items-center justify-center flex-col">
+		<div className="bg-blue-600 h-[400px] w-full flex items-center text-background justify-center flex-col">
 			<div>
 				<h1 className="text-4xl ">
 					<strong>¿Quieres una Valoración?</strong>
