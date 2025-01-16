@@ -15,7 +15,7 @@ function Home() {
       <ImageGallery />
       <Contact />
     </div>
-  );
+  )
 }
 
 export default Home;

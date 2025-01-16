@@ -4,7 +4,7 @@ import headerAccent from "/assets/headerAccent.png";
 
 const Header: React.FC = () => {
 	return (
-		<header className="bg-background shadow-md text-left">
+		<header className="bg-background shadow-md text-left w-full">
 			<div
 				className="bg-cover bg-center h-160 flex items-center text-left px-16 z-10"
 				style={{
