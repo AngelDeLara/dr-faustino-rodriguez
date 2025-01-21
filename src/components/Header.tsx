@@ -23,7 +23,7 @@ const Header: React.FC = () => {
 						backgroundSize: "cover",
 					}}
 				></div> */}
-				<div className="container z-30 text-left pl-28 relative">
+				<div className="container z-30 text-left sm:pl-0">
 					<h1 className="text-4xl font-bold text-background mb-4">
 						Luce radiante y <br /> recupera tu autoestima
 					</h1>
