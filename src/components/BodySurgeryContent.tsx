@@ -4,7 +4,7 @@ function BodySurgeryContent() {
   return (
     <div className='bg-white justify-center flex h-160'>
       <div className='w-1/3 flex-col align-middle'>
-        <h1 className='text-4xl text-primary text-left'>CIRUGIA CORPORAL</h1>
+        <h1 className='text-4xl text-primary text-left mt-28'>CIRUGIA CORPORAL</h1>
         <p className='text-black text-left'>
           Transforma tu cuerpo con nuestra cirugía corporal.
         </p>
