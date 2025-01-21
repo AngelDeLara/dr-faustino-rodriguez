@@ -27,7 +27,7 @@ const ServiceCards: React.FC = () => {
           <h3 className="font-bold text-left text-xl mb-4">{service.title}</h3>
           <p className="text-left mb-8">{service.description}</p>
           <a 
-            // href={service.link}
+            href={service.link}
             className="text-background rounded hover:bg-blue-100 transition duration-300 text-left">
             LEER MÁS
           </a>
