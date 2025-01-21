@@ -15,17 +15,19 @@ const Valoration: React.FC = () => {
       <div className="mt-4 flex flex-col items-center">
         <p className="flex items-center">
           <span className="bg-background rounded-full p-2">
+            <a href="https://www.facebook.com/drfaustinorodriguez/about_privacy_and_legal_info">
             <img src={FacebookIcon} alt="Facebook" className="w-4 text-primary" />
+            </a>
           </span>
           <span className="ml-2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           <a className='text-white' href="https://www.facebook.com/drfaustinorodriguez/about_privacy_and_legal_info">Facebook</a> 
           </span>
         </p>
         <p className="flex items-center mt-2">
           <span className="bg-background rounded-full p-2">
             <img src={InstagramIcon} alt="Instagram" className="w-4 text-primary" />
           </span>
-          <span className="ml-2">Lorem ipsum dolor sit amet.</span>
+          <span className="ml-2"><a className='text-background' href='https://www.instagram.com/dr.faustinocirujanop/'>Instagram</a></span>
         </p>
       </div>
       <div className="flex gap-4 h-14 mt-4">
