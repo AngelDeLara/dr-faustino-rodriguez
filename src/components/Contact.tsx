@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <div className="bg-background">
+        <div className="bg-background" id="contact">
             <div className="max-w-2xl mx-auto text-black pt-20 pb-20">
                 <h2 className="text-3xl font-bold mb-6 text-center">
                     Comparte tus datos para obtener más información

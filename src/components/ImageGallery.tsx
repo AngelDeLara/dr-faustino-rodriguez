@@ -23,11 +23,6 @@ const ImageGallery: React.FC = () => {
               alt={`Gallery image ${index + 1}`}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <button className="bg-white text-blue-600 font-bold py-2 px-4 rounded hover:bg-blue-100 transition duration-300">
-                VER DETALLES
-              </button>
-            </div>
           </div>
         ))}
       </div>
